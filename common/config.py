@@ -29,7 +29,7 @@ STUDENTS: dict[str, dict[str, str]] = {
 # Fill in each Render URL once deployed (no trailing slash), or set them as secrets.
 
 DEFAULT_API_URLS: dict[str, str] = {
-    "A": "",
+    "A": "https://student-a-api-group12.onrender.com",
     "B": "https://three6120-26sp-at3-group12-studentb-api.onrender.com",
     "C": "https://studentc-trend-category-api.onrender.com",
     "D": "https://tor-api-student.onrender.com",
