@@ -4,7 +4,7 @@
 
 | Student | Name | Student ID | Page | Model |
 |---|---|---|---|---|
-| A | _to fill_ | _to fill_ | Asset Performance Index (API) | XGBoost regression |
+| A | Chakshu Karwal | 26038226 | Asset Performance Index (API) | XGBoost regression |
 | B | Prachi Dhimate | 26060133 | Market Risk Index (MRI) | LightGBM regression |
 | C | Lavil Saldanha |26036727 | Trend Category (TC) | XGBoost classification |
 | D | Vedang Gosavi | 26059271 | Trading Opportunity Rating (TOR) | LightGBM classification |
