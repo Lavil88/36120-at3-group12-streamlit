@@ -9,7 +9,7 @@
 | C | Lavil Saldanha |26036727 | Trend Category (TC) | XGBoost classification |
 | D | Vedang Gosavi | 26059271 | Trading Opportunity Rating (TOR) | LightGBM classification |
 
-Deployed app: _Streamlit Community Cloud URL to add_
+Deployed app: https://36120-at3-group12-app-credkckkaeg9khecqrh87r.streamlit.app
 
 ## What it does
 

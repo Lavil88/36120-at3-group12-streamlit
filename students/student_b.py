@@ -157,6 +157,7 @@ def render() -> None:
     with st.spinner("Loading MRI prediction..."):
         result = get_prediction(STUDENT, token)
 
+    feature_sources = {}
     if result.ok and result.data:
         data = result.data
         prediction = data.get("prediction")
