@@ -601,7 +601,7 @@ def render() -> None:
         
         # Visual comparison of predicted MRI scores
         chart_data = comparison_df.dropna(
-            subset=["Predicted MRI (0-100)"]
+            subset=["Predicted MRI (0–100)"]
         ).copy()
 
         if not chart_data.empty:
@@ -612,7 +612,7 @@ def render() -> None:
                 .mark_bar(cornerRadiusEnd=4)
                 .encode(
                     x=alt.X(
-                        "Predicted MRI (0-100):Q",
+                        "Predicted MRI (0–100):Q",
                         title="Predicted Market Risk Index (0-100)",
                         scale=alt.Scale(domain=[0, 100]),
                     ),
@@ -624,7 +624,7 @@ def render() -> None:
                     tooltip=[
                         alt.Tooltip("Token:N"),
                         alt.Tooltip(
-                            "Predicted MRI (0-100):Q",
+                            "Predicted MRI (0–100):Q",
                             title="Predicted MRI",
                             format=".1f",
                         ),
